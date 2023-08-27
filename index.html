@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaper Game Squad</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aqui conectamos nuestro index (HTML) con nuestro estilos (CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Nuestras fuentes extraidas de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> <!-- Primero comenzamos con el HEADER, es la parte de arriba, lo que uno siempre ve apenas abre una pagina -->
+        <div class="barra">
+
+            <div class="logo">
+              <img src="./imagenes/logo.png" alt="logo"> 
+            </div>
+
+            <nav class="navegacion">
+                <ul> <!-- Aqui tenemos las listas de nuesta nav, lo que podemos tener. En estas listas se tratara de poner lo mas importante de su respectivas paginas -->
+                    <a href="#">Inicio</a>
+                </ul>
+                <ul>
+                    <a href="#">Noticias</a>
+                </ul>
+                <ul>
+                    <a href="#">Nosotros</a>
+                </ul>
+            </nav>
+        </div>
+        
+        <h2 >Reaper Game Squad</h2>
+        
+    </header> <!-- Termino con el Header -->
+
+    <main> <!-- El main es una de las cosas mas importantes porque es la continuacion del Header, es donde el observador ve el comienzo de la informacion, de que se trata y como va a ser la modalidad de la misma -->
+
+        <section class="team"> <!-- Al igual que el Main, el Section es importante para la estructura de tu pagina, este sirve para darle una introduccion a la misma -->
+            
+            <h2 class="centrar-texto">Nuestros equipos</h2> <!-- Comenzamos con nuestro Section mostrando nuestros supuestos equipos de esport-->
+
+            <div class="equipos contenedor">
+                <div>
+                    <h3 class="centrar-texto">Valorant</h3>
+                    <img src="./imagenes/team.jpg" alt="team">
+                    <p>Somos un equipo apasionado que combina habilidad táctica con un instinto estratégico afilado. Nuestros jugadores se destacan por su precisión milimétrica, comunicación impecable y la capacidad de adaptarse rápidamente a las cambiantes dinámicas del juego. Con una alineación diversa pero cohesionada, llevamos nuestra dedicación y determinación a la competición, siempre esforzándonos por lograr jugadas asombrosas y victorias épicas. En cada partida, demostramos nuestro compromiso con la excelencia competitiva y la búsqueda constante de la mejora. ¡Unidos en el campo de batalla virtual, somos un equipo que está listo para dejar una marca indeleble en el mundo de Valorant!</p>
+
+                    <button class="boton">Mas Informacion</button>
+                </div> <!-- Termina un team -->
+
+                <div>
+                    <h3 class="centrar-texto">Rainbow Six</h3>
+                    <img src="./imagenes/team2.jpg" alt="team">
+                    <p>Nuestro equipo de Rainbow Six es una familia de jugadores profesionales que comparten la misma vision: ser los mejores en lo que hacemos. Entrenamos duro, nos comunicamos a la perfeccion y nos adaptamos a cualquier mapa. Jugamos con estrategia, creatividad y corazon. Queremos desmostar nuestro talento y nuestro espiritu competitivo en el escenario internacional.</p> 
+
+                    <button class="boton">Mas Informacion</button>
+                </div><!-- Termina un team -->
+            </div>
+            
+        </section> <!--Termino un  Section-->
+
+        <div class="contenedor">
+            <h3 class="centrar-texto"">Ultimas Noticias</h3>
+
+            <div class="noticias">
+                <img src="imagenes/noticia1.jpg" alt="noticia">
+                <img src="imagenes/noticia2.jpg" alt="noticia">
+            </div>
+            
+            <div class="boton-noticias">
+                <button class="boton">Mas Informacion</button>
+            </div>
+            
+            
+        </div> <!-- Termino un div -->
+        
+        <section class="patrocinador">
+            <h3 class="centrar-texto titulo-patrocinadores">Nuestros patrocinadores</h3>
+            <div class="patrocinadores">
+                <div>    
+                    <svg class="iconos" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="-5 -5 60 60">
+                        <path fill-rule="evenodd" d="M 6.40625 16.800781 C 3.152344 20.621094 0 25.234375 0 28.902344 C 0 31.019531 1.78125 33.996094 6.132813 33.996094 C 8.484375 33.996094 10.820313 33.050781 12.648438 32.320313 C 15.730469 31.085938 49.789063 16.296875 49.789063 16.296875 C 50.117188 16.132813 50.058594 15.925781 49.644531 16.027344 C 49.480469 16.070313 12.566406 26.074219 12.566406 26.074219 C 11.855469 26.273438 11.128906 26.382813 10.421875 26.382813 C 7.230469 26.382813 5.078125 24.851563 5.078125 21.503906 C 5.078125 20.207031 5.484375 18.640625 6.40625 16.800781 Z"></path>
+                    </svg> <!--Estos iconos son extraidos de la web, hay opciones para programadores que te deja copiar el codigo y uno ya lo pone de esta manera-->
+                    <p class="centrar-texto texto-patrocinadores">Nike</p>
+                </div> <!-- Termina un icono -->
+                <div>
+                    <svg class="iconos" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16">
+                        <path d="M8,1.5C4.42,1.5,1.5,4.42,1.5,8c0,3.58,2.92,6.5,6.5,6.5s6.5-2.92,6.5-6.5C14.5,4.42,11.58,1.5,8,1.5z M8,11.75 c-2.07,0-3.75-1.68-3.75-3.75S5.93,4.25,8,4.25v1.5C6.76,5.75,5.75,6.76,5.75,8S6.76,10.25,8,10.25V11.75z M11.75,11h-1.5V8.75H8 v-1.5h3.75V11z"></path>
+                    </svg><!--Estos iconos son extraidos de la web, hay opciones para programadores que te deja copiar el codigo y uno ya lo pone de esta manera-->
+                    <p class="centrar-texto texto-patrocinadores">Logitech</p>
+                </div> <!-- Termina un icono -->
+
+                <div>
+                    <svg class="iconos" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-3 0 32 28">
+                        <path d="M 23.933594 18.945313 C 23.335938 20.269531 23.050781 20.863281 22.28125 22.03125 C 21.210938 23.667969 19.695313 25.707031 17.820313 25.71875 C 16.15625 25.734375 15.726563 24.632813 13.464844 24.652344 C 11.203125 24.660156 10.730469 25.738281 9.0625 25.722656 C 7.191406 25.707031 5.757813 23.867188 4.683594 22.238281 C 1.679688 17.664063 1.363281 12.300781 3.21875 9.449219 C 4.53125 7.425781 6.609375 6.238281 8.5625 6.238281 C 10.546875 6.238281 11.796875 7.328125 13.441406 7.328125 C 15.035156 7.328125 16.003906 6.234375 18.304688 6.234375 C 20.039063 6.234375 21.878906 7.179688 23.191406 8.816406 C 18.894531 11.167969 19.59375 17.304688 23.933594 18.945313 Z M 16.558594 4.40625 C 17.394531 3.335938 18.027344 1.820313 17.800781 0.277344 C 16.433594 0.371094 14.839844 1.242188 13.90625 2.367188 C 13.0625 3.394531 12.363281 4.921875 12.636719 6.398438 C 14.125 6.445313 15.664063 5.558594 16.558594 4.40625 Z"></path>
+                    </svg><!--Estos iconos son extraidos de la web, hay opciones para programadores que te deja copiar el codigo y uno ya lo pone de esta manera-->
+                    <p class="centrar-texto texto-patrocinadores">Apple</p>
+                </div><!-- Termina un icono -->
+
+            </div>
+        </section> <!-- Termino un section -->
+
+        <div class="sobre-nosotros contenedor">
+
+            <div>
+                <img src="./imagenes/nosotros.jpg" alt="sobre nosotros">
+            </div>
+
+            <div class="texto-nosotros">
+                <h4>Sobre nosotros</h4>
+                <p>
+                    Bienvenidos al emocionante mundo de Reaper Game Squad, donde la pasión por los videojuegos se fusiona con la dedicación y el rendimiento excepcional. Somos un equipo de esports comprometido con la competencia de alto nivel, la camaradería inquebrantable y el constante impulso hacia la victoria. 
+                    <br>
+                    En Reaper Game Squad, cada miembro es un apasionado del juego y un maestro en su especialidad. Nuestro enfoque va más allá de la victoria: se trata de la superación personal, el trabajo en equipo impecable y la búsqueda incesante de la mejora. Con una determinación férrea y un deseo ardiente de sobresalir, llevamos nuestros esfuerzos al límite en cada torneo y enfrentamiento.Nuestra diversidad es nuestra fortaleza: un equipo unido por la pasión por los juegos, que abarca diversos géneros y plataformas. Desde los juegos de estrategia más intrincados hasta los combates frenéticos de disparos, Reaper Game Squad demuestra su habilidad y agilidad en todos los rincones del mundo de los videojuegos. <br>
+                    
+                    No somos solo jugadores; somos una familia. Cada victoria celebra no solo el éxito individual, sino también el esfuerzo colectivo y la colaboración constante. Nuestra dedicación no solo se refleja en el campo de batalla virtual, sino también en nuestra comunidad, donde compartimos conocimientos, interactuamos con nuestros seguidores y fomentamos un ambiente de respeto y pasión.Así que únete a nosotros mientras continuamos forjando un camino en el mundo de los esports. Reaper Game Squad no solo está redefiniendo la excelencia, sino que también estamos creando momentos inolvidables, inspirando a otros y dejando una marca indeleble en la industria de los videojuegos. <br>
+
+                    <b>Prepárate para presenciar la grandeza. ¡Somos Reaper Game Squad!</b>
+                </p>
+            </div>
+
+        </div> <!-- Termino con un Div -->
+
+        <form class="formulario contenedor">
+            <h3 class="centrar-texto">¿Quieres unirte a nuestro squad?</h3>
+            <p>Completa el formulario y te contactaremos</p>
+            
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                
+                <label for="nombre">Nombre</label>
+                <input id="nombreUsuario" type="text" placeholder="Tu Nombre" id="nombre"> <!-- Los ID agregados se van a utilizar para nuestro JS que lo veremos alli -->
+
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="Tu email" id="email">
+
+                <label for="telefono">Tu telefono</label>
+                <input type="text" placeholder="Tu numero" id="numero">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje"></textarea>
+
+                <button onclick="enviarFormulario()" class="boton">Enviar</button>
+
+            </fieldset>
+        </form>
+
+    </main> <!--El Main y el Footer van separados, al igual si luego le quiero agregar el codigo de JavaScript se hace afuera de estas dos que acabamos de comentar -->
+    
+    <footer class="footer"> 
+        <div class="barra-footer">
+
+            <div class="logo-footer">
+                <img src="./imagenes/logo.png" alt="logo"> 
+            </div>
+
+            <nav class="navegacion">
+                <ul>
+                    <a href="#">Inicio</a>
+                </ul>
+                <ul>
+                    <a href="#">Noticias</a>
+                </ul>
+                <ul>
+                    <a href="#">Nosotros</a>
+                </ul>
+            </nav>
+        </div>      
+    </footer> <!-- Para finalizar tenemos el Footer que es la terminacion de la pagina donde se encuntra al igual que el Header las mismas listas pero de una forma mas corta -->
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+<!-- Para terminar con este proyecto de Html podemos sacar muchas cosas positivas, ya tenemos un vitazo de nuestra pagina web que de a poco vamos a ir perfeccionandola y hacerla cada vez mejor, agregandole mejores dinamicas para que quede como uno quiere, siempre quedara medio confuso y largo pero cuando uno se da sus "mañas" o descubre cosas por nuestros profesores u otro metodo vamos a adquirir esos conocimientos para tomar atajos donde el codigo queda mas chico o mas sencillo, es un proceso donde estamos todos juntos aprendiendo cosas que no vimos, cosas nuevas o refrescando esos conocimientos olvidados pero siendo un equipo que se apoya uno al otro. -->

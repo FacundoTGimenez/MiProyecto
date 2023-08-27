@@ -1,0 +1,5 @@
+EXPLICACION DE NUESTRA PAGINA:
+Nuestro proyecto se trato sobre un equipo de esport llamado Reaper Game Squad, ademas nos vinieron la paleta de colores. Hicimos un trabajo basico y sencillo, sin tratar de complicar a los estudiantes que estan aprendiendo de a poco a tener un conocimiento bascio, respecto a HTML tocamos temas como los DIV - SECTION - CLASS - ID - FORMULARIOS - IMG y mas, en CSS le dimos un poco de diseño y ademas ubicamos las imagenes, textos o titulos como quisieramos y por ultimo en JAVASCRIPT le dimos dinamismo a nuestra pagina, realizamos una funcion que nos indique al enviar un formulario con un alert que nos da un mensaje y tambien nos agrega el nombre que colocamos en ese mismo formulario. 
+
+COMO ME SENTI:
+Fue un trabajo divertido y desafiante porque no es como el principio de nuestro curso para ser programador Front End que teniamos que demostrar lo que aprendimos y plasmarlo, ahora tenemos que hacer eso y ademas explicarlo para que nuestros estudiantes comprendan y ellos mismos puedan recrearlo en sus respectivas paginas, que puedan entenerlo y ser creativos. 

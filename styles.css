@@ -1,0 +1,209 @@
+/** Globales **/
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+.centrar-texto {
+    text-align: center;
+}
+button {
+    align-items: center;
+}
+/** A mi me gusta comenzar con las cosas mas importantes de CSS, yo lo comento como Glovales pero ustedes lo pueden llamar de la manera que les parezca mejor y que se puedan acordar, yo recomiendo que siempre separen los codigos. Por ejemplo separar los globales con el Header, queda mejor a la vista y ordenado que nos va a permitir tener el codigo mas controlado **/
+
+
+/** Header **/
+
+.header {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./imagenes/fondo.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.header h2 {  /** Estamos viendo como unimos la class .header con el h2, si vamos al principio de nuestro de nuesto codigo lo que vamos a ver que el h2 ya esta utilizado de la misma manera, entonces lo que hacemos de esta forma es que solamente cambiamos el h2 cuando se usa la clase de .header, no afecta a otros h2 **/
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+}
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    padding-right: 3rem;
+}
+.navegacion a { /** Otro ejemplo que podemos usar es este que tambien nuestra clase solo se va a modificar con nuestro A cuando se utilice  **/
+    color: white;
+    font-size: 1.2rem;
+}
+.logo img {
+    padding-left: 3rem;
+    width: 7rem;
+}
+
+/** Footer **/
+.footer {
+    background-color: #e43f25;
+    height: 5rem;
+}
+.logo-footer {
+    width: 4rem;
+    padding-left: 3rem;
+    padding-top: .4rem;
+}
+.barra-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** Boton **/
+.boton {
+    display: block;
+    color: #f3e4ca;
+    background-color: #040303;
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+/** Main **/
+.team {
+    background-color: #f3e4ca;
+}
+.equipos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+.equipos img {
+    height: 20rem;
+    width: 100%;
+}
+
+/** Noticias **/
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+.noticias img {
+    height: 25rem;
+    width: 100%;
+}
+.boton-noticias  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** Patrocinadores **/
+.patrocinador {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url(./imagenes/sponsor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+}
+.patrocinadores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 2rem;
+}
+.iconos {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto-patrocinadores {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #f3e4ca;
+}
+.titulo-patrocinadores{
+    color: #f3e4ca;
+    padding-top: 2rem;
+}
+
+
+/** Sobre Nosotros **/
+.sobre-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #040303;
+
+}
+.texto-nosotros {
+    margin-top: -4rem;
+}
+
+/** Formulario **/
+.formulario {
+    padding-bottom: 3rem;
+}
+.formulario p {
+    font-size: 2.4rem;
+    margin: 2rem 0 0 0;
+
+}
+.formulario legend {
+    font-size: 2rem;
+}
+.formulario label{
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+.formulario input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 98%;
+    border: 1px solid #808080;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.formulario textarea {
+    height: 20rem;
+}
+
+/** De esta manera concluimos nuestra explicacion de CSS, al principio resulta complicada y dificil pero con trabajos, resolviendo dudas y demas, vamos a poder ser expertos en estos deberes. **/
